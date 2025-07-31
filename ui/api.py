@@ -3,7 +3,7 @@
 import streamlit as st
 import requests
 
-API_URL = "http://127.0.0.1:8000" # Use your PythonAnywhere URL when deployed
+API_URL = "https://tarique123.pythonanywhere.com" # Use your PythonAnywhere URL when deployed
 
 def handle_request(method, url, json_payload=None, **kwargs):
     """
