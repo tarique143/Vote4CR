@@ -1,0 +1,22 @@
+# requirements.txt (Final and Complete)
+
+# ---- Backend Core (FastAPI) ----
+fastapi
+uvicorn[standard]
+
+# ---- Database ----
+motor
+
+# ---- Environment Variables ----
+python-dotenv
+
+# ---- Frontend Core (Streamlit) ----
+streamlit
+requests
+
+# ---- Data Handling (Used by both Backend & Frontend) ----
+pandas
+openpyxl
+
+# ---- Image Handling (Used by both Backend & Frontend) ----
+Pillow
