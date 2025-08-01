@@ -1,22 +1,9 @@
-# requirements.txt (Final and Complete)
-
-# ---- Backend Core (FastAPI) ----
-fastapi
-uvicorn[standard]
-
-# ---- Database ----
-motor
-
-# ---- Environment Variables ----
-python-dotenv
-
-# ---- Frontend Core (Streamlit) ----
-streamlit
-requests
-
-# ---- Data Handling (Used by both Backend & Frontend) ----
-pandas
-openpyxl
-
-# ---- Image Handling (Used by both Backend & Frontend) ----
-Pillow
+fastapi==0.111.0
+gunicorn==22.0.0  <-- Ye add ho jayega
+pandas==2.2.2
+Pillow==10.3.0
+pydantic==2.7.1
+requests==2.31.0
+streamlit==1.35.0
+uvicorn==0.29.0
+# aur bhi kuch libraries ho sakti hain...
